@@ -1,4 +1,4 @@
-![hacktoberfest](./images/logo-hacktoberfest-full.f42e3b1.svg)
+![hacktoberfest](https://raw.githubusercontent.com/archismansaha/DSA/d6149aadc2b3d608bb664ecfc2033598a88dc2e5/images/logo-hacktoberfest-full.f42e3b1.svg)
 
 
 
