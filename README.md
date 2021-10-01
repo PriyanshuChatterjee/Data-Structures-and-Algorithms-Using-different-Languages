@@ -26,7 +26,7 @@ Navigate to the link below 👇 👇 and follow the instructions ✔️ ✔️
 To add your contributions towards opensource community and grab the oppurtunity:smiley: :smiley::smiley: 
 
 Then lets start with this repository.
-##  <center>:sunglasses: :sunglasses: DSA :sunglasses: :sunglasses: </center> (Collection of DSA problems and solutions :notebook_with_decorative_cover: :notebook_with_decorative_cover:)
+##  <center>:sunglasses: :sunglasses: DSA :sunglasses: :sunglasses: </center> (Collection of DSA problems and solutions in Any Language you like:notebook_with_decorative_cover: :notebook_with_decorative_cover:)
 
 ### Head down :arrow_down: :arrow_down: :arrow_down: to see how to get started with the repo and follow the guidelines :dart: :dart: :dart:
 
