@@ -89,7 +89,7 @@ This year, the first 55,000 participants can earn a T-shirt.
 
 
 ``$ cd <cloned-folder>`` 
-``$ git remote add upstream https://github.com/arnab2001/DSA.git ``
+``$ git remote add upstream https://github.com/PriyanshuChatterjee/Data-Structures-and-Algorithms-Using-different-Languages-.git ``
 ******
 
 #### 4️⃣ Now synchronize your forked repo:
