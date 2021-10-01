@@ -9,7 +9,7 @@
 :diamonds: Hacktoberfest is a month-long challenge. It happens every year in the month of October.
   Hacktoberfest is open to everyone and it marks the celebration of **Open Source.** It's the biggest Open Source event that encourages newbies to participate in Open Source and     create their 1st meaningful PR.
   
-  <h1 align="center"><img src='https://i.giphy.com/media/xT0xeQfucCAPaq3nQ4/giphy.gif'></h1>
+  <h1 align="center"><iframe src="https://giphy.com/embed/TdfyKrN7HGTIY" width="480" height="275" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/happy-spongebob-squarepants-patrick-TdfyKrN7HGTIY">via GIPHY</a></p></h1>
 
 🏆 🏆 **Rewards :** 🏆🏆
 
