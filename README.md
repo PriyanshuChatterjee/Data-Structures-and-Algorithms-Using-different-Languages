@@ -33,8 +33,7 @@ Then lets start with this repository.
 *****
 :label: Use proper folders and subfolders to define catagory and put program file(c/c++/java/python/js) and explanation in a readme file
  
- Example : `` C++/Array/Sorting&Searching/Bubblesort/bubblesort.c  (adding a readme file is recommended)
-           Java/Matrix/Matrix Multiplication/Matrix_multiplication.java  (adding a readme file is recommended)``
+ Example : `` C++/Array/Kadane's Algorithm/kadane.cpp  (adding a readme file is recommended)``
  
  
 😎 You can Create Issues which will be approved by us and then you can make a PR for it.
