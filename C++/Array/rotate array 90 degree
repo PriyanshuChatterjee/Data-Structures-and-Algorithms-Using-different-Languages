@@ -1,0 +1,120 @@
+/*To rotate a 2-D array by 90 degree.
+input-  a b c    output-g d a
+        d e f           h e b
+        g h i           i f c
+*/
+
+
+//start of the program
+
+#include<iostream>
+#include<vector>
+using namespace std;
+
+
+void rev(int oned[],int n1,int n2) //the function to swap the elements to reverse
+{ int i=n1;
+  int j=n2;
+    while(i<j)
+    {
+      int temp=oned[i];
+      oned[i]=oned[j];
+      oned[j]=temp;
+      i++;
+      j--;
+    }
+}
+//main rotate function using recursion
+void rotate(int oned[],int r){ 
+  int len = sizeof(oned)/sizeof(oned[0]);
+  r=r%len;
+  if(r<0)
+  r=r+len;
+
+rev(oned,0,(len-r-1));
+rev(oned,(len-r),len-1);
+rev(oned,0,len-1);
+}
+
+// rotate the array in 90 degree
+int *shelltooned(int ar[][1000],int s,int m,int n){
+int minr=s-1;
+int minc=s-1;
+int maxr = m-s;
+int maxc=n-s;
+
+int len= 2*(maxr - minr + maxc - minc);
+int oned[len];
+int ind=0;
+for(int i=minr,j=minc;i<maxr;i++){
+oned[ind]=ar[i][j];
+ind++;
+}
+for(int i=maxr,j=minc;j<maxc;i++){
+oned[ind]=ar[i][j];
+ind++;
+}
+for(int i=maxr,j=maxc;i>minr;i--){
+oned[ind]=ar[i][j];
+ind++;
+}
+for(int i=minr,j=maxc;j>minc;i++){
+oned[ind]=ar[i][j];
+ind++;
+}
+
+return oned;
+}
+
+void onedtoshell(int ar[][1000],int s,int r,int m,int n,int oned[]){
+int minr=s-1;
+int minc=s-1;
+int maxr = m-s;
+int maxc=n-s;
+int ind=0;
+for(int i=minr,j=minc;i<maxr;i++){
+ar[i][j]=oned[ind];
+ind++;
+}
+for(int i=maxr,j=minc;j<maxc;i++){
+ar[i][j]=oned[ind];
+ind++;
+}
+for(int i=maxr,j=maxc;i>minr;i--){
+ar[i][j]=oned[ind];
+ind++;
+}
+for(int i=minr,j=maxc;j>minc;i++){
+ar[i][j]=oned[ind];
+ind++;
+}
+for(int i=0;i<m;i++){
+  for(int j=0;j<n;j++){
+      cout<<ar[i][j]<<endl;
+  }
+}
+}
+
+
+int shell(int ar[][n],int s,int r,int m,int n){
+int *oned= shelltooned(ar,s,m,n); 
+rotate(oned,r);
+onedtoshell(ar,s,r,m,n,oned);
+}
+
+int main(){
+  int m,s,r;
+cout<<"enter"<<endl;
+cin>>m;
+cin>>n;
+vector<vector<int>> vc; 
+int ar[m][n];
+for(int i=0;i<m;i++){
+  for(int j=0;j<n;j++){
+      cin>>ar[i][j];
+  }
+}
+cin>>s;
+cin>>r;
+shell(ar,s,r,m,n);
+}
